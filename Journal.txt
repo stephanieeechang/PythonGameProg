@@ -1,3 +1,2 @@
-Version control system (VCS) which stores the history (any modification) one made while editing a program. The greatest advantage using it is that one won’t lost track of his/her progress on programming, and could always go back and change his/ her program with a backup file. 
-
-Installed GIT
+8/25/2016
+Had a start on Python using the terminal, with command Python, iPython, and Jupyter notebook (imperative)
