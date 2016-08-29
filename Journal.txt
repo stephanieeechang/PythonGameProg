@@ -1,2 +1,4 @@
-8/25/2016
-Had a start on Python using the terminal, with command Python, iPython, and Jupyter notebook (imperative)
+8/29/2016
+Starting Python programming, using Jupiter notebook.
+
+Wrote two programs: one calculates the volume and surface area of cubes, another calculates the solutions of quadratic functions
