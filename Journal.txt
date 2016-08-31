@@ -1,4 +1,4 @@
-8/29/2016
-Starting Python programming, using Jupiter notebook.
+8/31/2016
+Wrote the SolarSystem program using Python script and Jupiter Notebook (script execution and interactive execution)
 
-Wrote two programs: one calculates the volume and surface area of cubes, another calculates the solutions of quadratic functions
+Learned how to write if statements in Python
