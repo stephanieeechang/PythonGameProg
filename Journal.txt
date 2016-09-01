@@ -1,4 +1,4 @@
-8/31/2016
-Wrote the SolarSystem program using Python script and Jupiter Notebook (script execution and interactive execution)
+9/1/2016
+Learned about Boolean operators and sys module, and analyzing flow charts of a program using if statements.
 
-Learned how to write if statements in Python
+Sys module: write code (import statement) using PyCharm, and pass the arguments to the script in the terminal.
