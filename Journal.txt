@@ -1,4 +1,8 @@
-9/1/2016
-Learned about Boolean operators and sys module, and analyzing flow charts of a program using if statements.
+9/5/2016
+Constructed 5 different programs using PyCharm to generate a script and run by the terminal 
+1. Monkey program: user input, boolean, if-elif-else statement, print 
+2. Range program: user input, if-elif-else statement, return True/False
+3. Ticket program: user input, if-elif-else statement, print
+4. and 5. Infographic program: user input, if-elif-else statement, print and analyse 
 
-Sys module: write code (import statement) using PyCharm, and pass the arguments to the script in the terminal.
+Received feedbacks from previous programs
