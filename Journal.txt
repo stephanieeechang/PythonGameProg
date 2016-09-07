@@ -1,7 +1,7 @@
 9/7/2016
-Two programs using while statement:
+Wrote two programs using while statements:
 1. Digit: The program extracts the digit of a number, while the user enters a natural number.
 2. Dice: The program counts the number of times of getting a 6 on a dice out of 1000 rolls,while it randomly rolls the dice (generates random number ranging from 1~6)
 It also calculates the probability of getting a 6 in a dice roll.
 
-Draw flow diagram for both programs.
+Drew flow diagram for both programs.
