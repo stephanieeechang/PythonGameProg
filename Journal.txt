@@ -1,8 +1,7 @@
-9/5/2016
-Constructed 5 different programs using PyCharm to generate a script and run by the terminal 
-1. Monkey program: user input, boolean, if-elif-else statement, print 
-2. Range program: user input, if-elif-else statement, return True/False
-3. Ticket program: user input, if-elif-else statement, print
-4. and 5. Infographic program: user input, if-elif-else statement, print and analyse 
+9/7/2016
+Two programs using while statement:
+1. Digit: The program extracts the digit of a number, while the user enters a natural number.
+2. Dice: The program counts the number of times of getting a 6 on a dice out of 1000 rolls,while it randomly rolls the dice (generates random number ranging from 1~6)
+It also calculates the probability of getting a 6 in a dice roll.
 
-Received feedbacks from previous programs
+Draw flow diagram for both programs.
