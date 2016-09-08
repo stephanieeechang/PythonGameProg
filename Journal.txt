@@ -1,7 +1,3 @@
-9/7/2016
-Wrote two programs using while statements:
-1. Digit: The program extracts the digit of a number, while the user enters a natural number.
-2. Dice: The program counts the number of times of getting a 6 on a dice out of 1000 rolls,while it randomly rolls the dice (generates random number ranging from 1~6)
-It also calculates the probability of getting a 6 in a dice roll.
+9/8/2016
 
-Drew flow diagram for both programs.
+minimumOfFunction program: The program finds the minimum of a function of the user’s choice by initially generating the random value of variable x. Then generates a new value, and compares the output of the function (f(x)) to the previous output, while incrementing x. If the previous value is larger, then decrement x, if not, continue on incrementing. Use the while statement to allow the loop to continue until it reaches the minimum of the function.
