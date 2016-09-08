@@ -1,0 +1,3 @@
+WUP#9 flow chart explain
+
+Two string variables, strln and strTest, each are assigned “none” and “any string”. The user is then asked to input “any string”. The program then tests (using while loop) if the user entered “any string“, if yes, the program prints out “Good job”, if not it loops back to the previous statement (input) until the user enters “any string”.
