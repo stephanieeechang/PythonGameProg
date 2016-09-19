@@ -1,3 +1,4 @@
-9/8/2016
+9/19/2016
 
-minimumOfFunction program: The program finds the minimum of a function of the user’s choice by initially generating the random value of variable x. Then generates a new value, and compares the output of the function (f(x)) to the previous output, while incrementing x. If the previous value is larger, then decrement x, if not, continue on incrementing. Use the while statement to allow the loop to continue until it reaches the minimum of the function.
+primeNumber: A program that asks for the users input n, and prints out the first nth prime number. 
+Use for loops and while loops to limit the range of the prime numbers, also to eliminate the non-prime numbers by finding the numbers that have modules of i (i is an integer within the range of 2 to num) that equals to 0. However, the module of 2 of the number 2 equals to 0, thus the program is not able to print 2 (a prime number), so I directly printed 2 using the print statement at the beginning of the while loop. 
