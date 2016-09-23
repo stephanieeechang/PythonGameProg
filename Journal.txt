@@ -1,4 +1,8 @@
-9/19/2016
+9/22/2016
 
-primeNumber: A program that asks for the users input n, and prints out the first nth prime number. 
-Use for loops and while loops to limit the range of the prime numbers, also to eliminate the non-prime numbers by finding the numbers that have modules of i (i is an integer within the range of 2 to num) that equals to 0. However, the module of 2 of the number 2 equals to 0, thus the program is not able to print 2 (a prime number), so I directly printed 2 using the print statement at the beginning of the while loop. 
+Wrote several programs for practice with if-else statements, for and while loops, also drew corresponding flow charts for each program.
+1. Construct pattern with asterisks and for loops
+2. Reverse a word of the user’s input
+3. Print numbers 0-6, except 3 and 6, using for loops and ‘continue’ statement
+4. User enters a non-negative integer number, then the program repeatedly adds all its digits until the result has only one digit.
+5. Prints the numbers that are divisible by 7 and multiple of 5, between 1500 and 2700.
