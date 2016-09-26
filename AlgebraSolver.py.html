@@ -1,0 +1,64 @@
+
+# coding: utf-8
+
+# ## This program will receive two pair of points and returns the equation of the line crossing those points.
+# ## Equation will be displayed in standard, slope-intercept, and point-slope forms.
+
+# In[33]:
+
+#Ex: if your two points are (0, 1) and (2, 5)
+pointX1 = int(input('Enter the x coordinate of the first point (Ex: 0): '))
+pointY1 = int(input('Enter the y coordinate of the first point (Ex: 1): '))
+
+pointX2 = int(input('Enter the x coordinate of the second point (Ex: 2): '))
+pointY2 = int(input('Enter the y coordinate of the second point (Ex: 5): '))
+
+
+# In[34]:
+
+#calculate slope
+slope = (pointY2 - pointY1)/ (pointX2 - pointX1)
+print(slope)
+
+
+# In[35]:
+
+#standard form (ax + by = c)
+standard_a = slope*(-1)
+standard_c = pointY1 - (slope*pointX1)
+print('The standard form of the equation is: ' + str(standard_a) + 'x + y = ' + str(standard_c))
+
+
+# In[36]:
+
+#slope-intercept form (y = mx + b)
+slopeInter_b = pointY1 - (slope*pointX1)
+if(slopeInter_b >= 0):
+    print('The slope-intercept form of the equation is: y = ' + str(slope) + 'x + ' + str(slopeInter_b))
+else:
+    print('The slope-intercept form of the equation is: y = ' + str(slope) + 'x ' + str(slopeInter_b))
+
+
+# In[37]:
+
+#point-slope form (y - y1 = m(x - x1))
+pointSlope_y1 = pointY1*(-1)
+pointSlope_x1 = pointX1*(-1)
+if(pointSlope_y1 >= 0 and pointSlope_x1 >= 0):
+    print('The point-slope form of the equation is: y - ' + str(pointSlope_y1) + ' = ' + str(slope) +
+          '(x - ' + str(pointSlope_x1) + ')')
+elif(pointSlope_y1 < 0 and pointSlope_x1 < 0):
+    print('The point-slope form of the equation is: y ' + str(pointSlope_y1) + ' = ' + str(slope) +
+          '(x ' + str(pointSlope_x1) + ')')
+elif(pointSlope_y1 >= 0 and pointSlope_x1 < 0):
+    print('The point-slope form of the equation is: y - ' + str(pointSlope_y1) + ' = ' + str(slope) +
+          '(x ' + str(pointSlope_x1) + ')')
+else:
+    print('The point-slope form of the equation is: y ' + str(pointSlope_y1) + ' = ' + str(slope) +
+          '(x - ' + str(pointSlope_x1) + ')')
+
+
+# In[ ]:
+
+
+
