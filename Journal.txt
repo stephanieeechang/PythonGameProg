@@ -1,8 +1,9 @@
-9/22/2016
+9/26/2016
 
-Wrote several programs for practice with if-else statements, for and while loops, also drew corresponding flow charts for each program.
-1. Construct pattern with asterisks and for loops
-2. Reverse a word of the user’s input
-3. Print numbers 0-6, except 3 and 6, using for loops and ‘continue’ statement
-4. User enters a non-negative integer number, then the program repeatedly adds all its digits until the result has only one digit.
-5. Prints the numbers that are divisible by 7 and multiple of 5, between 1500 and 2700.
+TEST DAY!
+1. BinaryToDecimal: converts binary numbers (user input) into decimal form
+
+2. AlgebraSolver: user inputs two set of coordinates, the program then generates the equation of the line crossing those points. The equations are shown in standard, slope-intercept, and point-slope forms. (in Jupyter notebook)
+
+3. CoffeeMachine: A coffee vending machine that has the function below:
+The machine constantly shows the menu of coffees available. The user starts by selecting the type of coffee he/she wants, then the size, and then the portions of sugar. Then the machine shows the price and waits for the user to press START (representing that the user payed the money). If the user does not press start within 10 seconds, the machine starts over. If the user presses START, a message in the display of the machine shows the time until completion of the coffee. Once it is finish the machine displays “Ready” in its display. Pressing the CANCEL button any time before pressing START, resets the machine returning to the initial menu. 
