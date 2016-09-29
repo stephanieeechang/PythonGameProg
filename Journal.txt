@@ -1,4 +1,6 @@
-9/28/2016
+9/29/2016
 
-Received feedback on the test (modify the coffee machine program)
-Study functions, return statement, exception handling, local and global variables from the online textbook.
+Full explanation of how to write the coffee machine program correctly. 
+Timer: time.sleep(), alarm, Thread
+
+Recreate a vending machine program of another kind (cupcake machine), using functions to organise code better.
