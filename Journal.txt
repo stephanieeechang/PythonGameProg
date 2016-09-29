@@ -1,9 +1,4 @@
-9/26/2016
+9/28/2016
 
-TEST DAY!
-1. BinaryToDecimal: converts binary numbers (user input) into decimal form
-
-2. AlgebraSolver: user inputs two set of coordinates, the program then generates the equation of the line crossing those points. The equations are shown in standard, slope-intercept, and point-slope forms. (in Jupyter notebook)
-
-3. CoffeeMachine: A coffee vending machine that has the function below:
-The machine constantly shows the menu of coffees available. The user starts by selecting the type of coffee he/she wants, then the size, and then the portions of sugar. Then the machine shows the price and waits for the user to press START (representing that the user payed the money). If the user does not press start within 10 seconds, the machine starts over. If the user presses START, a message in the display of the machine shows the time until completion of the coffee. Once it is finish the machine displays “Ready” in its display. Pressing the CANCEL button any time before pressing START, resets the machine returning to the initial menu. 
+Received feedback on the test (modify the coffee machine program)
+Study functions, return statement, exception handling, local and global variables from the online textbook.
