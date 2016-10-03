@@ -1,6 +1,9 @@
-9/29/2016
+10/3/2016
 
-Full explanation of how to write the coffee machine program correctly. 
-Timer: time.sleep(), alarm, Thread
+benefit for using functions, execution flow, explain how functions work
 
-Recreate a vending machine program of another kind (cupcake machine), using functions to organise code better.
+challenging program: Lego
+categorise bricks and beams
+distance formula
+scatter plot
+import lego.txt file
