@@ -1,9 +1,8 @@
-10/3/2016
+10/5/2016
 
-benefit for using functions, execution flow, explain how functions work
+Read “Automate the Boring Stuff with Python” about lists (like arrays in Java and C++) and methods that will commonly be used with lists that comes with the library
+***Variables do not store list values directly; they store references to lists.***
 
-challenging program: Lego
-categorise bricks and beams
-distance formula
-scatter plot
-import lego.txt file
+Tuples: similar to lists, but are immutable 
+
+Lego program: files I/O, lists, for/ while loops, scatter plot
