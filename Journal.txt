@@ -1,8 +1,4 @@
-10/5/2016
+10/6/2016
 
-Read “Automate the Boring Stuff with Python” about lists (like arrays in Java and C++) and methods that will commonly be used with lists that comes with the library
-***Variables do not store list values directly; they store references to lists.***
-
-Tuples: similar to lists, but are immutable 
-
-Lego program: files I/O, lists, for/ while loops, scatter plot
+Practice on functions, lists, try/except, map(), filter() and sorted().
+Learned and familiarised with the basic methods or common operations associated to lists.
