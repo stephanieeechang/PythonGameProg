@@ -1,4 +1,10 @@
-10/6/2016
+10/12/2016
 
-Practice on functions, lists, try/except, map(), filter() and sorted().
-Learned and familiarised with the basic methods or common operations associated to lists.
+Play Kahoot about list
+Find different ways to create a list:
+for loop
+while loop
+concatenation
+concise way: list = [x for x in list1 if x == 0]
+
+predict next word challenge
