@@ -1,10 +1,7 @@
-10/12/2016
+10/13/2016
 
-Play Kahoot about list
-Find different ways to create a list:
-for loop
-while loop
-concatenation
-concise way: list = [x for x in list1 if x == 0]
+Writing functions for word generator program.
 
-predict next word challenge
+Start storing functions in MyLibrary.py, so can call commonly used functions from MyLibrary in future programs.
+
+Updated Lego program.
