@@ -42,7 +42,7 @@ def calc(distanceBrick, distanceBeam, bricksCalc, beamsCalc):
     return bricksCalc, beamsCalc, isBrick
 
 
-def distance():
+def distanceLego():
     bricks = 0
     beams = 0
     brickListX = []
@@ -50,8 +50,8 @@ def distance():
     beamListX = []
     beamListY = []
     for x, y in legos:
-        distanceBeam = math.sqrt((repBeamL - x)**2 + (repBeamW - y)**2)
-        distanceBrick = math.sqrt((repBrickL - x)**2 + (repBrickW - y)**2)
+        distanceBeam = distance(repBeamL, x, repBeamW, y)
+        distanceBrick = distance(repBrickL, x, repBrickW, y)
         bricks, beams, isBrick = calc(distanceBrick, distanceBeam, bricks, beams)
         if(isBrick):
             brickListX.append(x)
@@ -65,6 +65,11 @@ def distance():
     print('Number of beams: '+ str(beams))
 
 
+def distance(x1, x2, y1, y2):
+    dis = math.sqrt((x1-x2)**2 + (y1-y2)**2)
+    return dis
+
+
 def plot():
     # print each pair of points in a scatter plot
     for x, y in beamCoor:
@@ -75,5 +80,5 @@ def plot():
         plt.show()
 
 printPoints()
-distance()
+distanceLego()
 plot()
