@@ -1,10 +1,10 @@
-10/17/2016
+10/20/2016
 
-Write functions for WordGenerator program
-readTxt(): reads the sample text file and returns a list (use split function)
+created rubric for the WordGenerator program
 
-nextWord(): find the words after the given word; input sample text, return a list with all following words and a list with the occurrences of the next words
 
-probability(): calculate the probability that a word could be the next word 
-
-Watched a video explaining how Jansen’s (disgusting) machine works
+***programs below all uses list comprehension***
+RandCmate program: randomly generates a classmate’s name
+Capitalize program: capitalises the first letter of each word in a list
+ColorsClothes program: generate different combinations of colors and clothes
+RemoveVowels program: remove all the vowels in a sentence
