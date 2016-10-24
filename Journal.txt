@@ -1,10 +1,6 @@
-10/20/2016
+10/24/2016
 
-created rubric for the WordGenerator program
-
-
-***programs below all uses list comprehension***
-RandCmate program: randomly generates a classmate’s name
-Capitalize program: capitalises the first letter of each word in a list
-ColorsClothes program: generate different combinations of colors and clothes
-RemoveVowels program: remove all the vowels in a sentence
+DICITIONARY:
+- dictionary v.s. list
+- how to declare/initialize a dictionary
+- try all dict methods (del, clear, copy, fromkeys, get, items, keys, values)
