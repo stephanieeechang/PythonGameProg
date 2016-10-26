@@ -1,6 +1,8 @@
-10/24/2016
+10/26/2016
 
-DICITIONARY:
-- dictionary v.s. list
-- how to declare/initialize a dictionary
-- try all dict methods (del, clear, copy, fromkeys, get, items, keys, values)
+finish lesson #9 programs
+1. ScatterPlot program: plot a circle using list comprehension
+2. ListTxtFile program: create a list of all txt file file names on your computer (in a certain folder) using list comprehension and os library
+
+debug programs on Stack OverFlow
+(errors are associated to dictionaries)
