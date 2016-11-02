@@ -1,3 +1,3 @@
-10/28/2016
+11/2/2016
 
-Debug programs from Stack Overflow, mostly about dictionary or lists
+TicTacToe program: the Tic Tac Toe game, two players play the game. The Xs or Os or blanks are stored in a dictionary with corresponding keys (coordinate (1~9) on the grid). Players input their choice, the dictionary is modified, grid displayed, then winner determined.
