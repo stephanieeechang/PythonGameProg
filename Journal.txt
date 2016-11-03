@@ -1,3 +1,5 @@
-11/2/2016
+11/3/2016
 
-TicTacToe program: the Tic Tac Toe game, two players play the game. The Xs or Os or blanks are stored in a dictionary with corresponding keys (coordinate (1~9) on the grid). Players input their choice, the dictionary is modified, grid displayed, then winner determined.
+Created a library for TicTacToe to store all functions used in the TicTacToe program
+
+Artificial Intelligence: choose the best (computer should prevent the user from winning, or itself should win the game) following step among all possibilities.
