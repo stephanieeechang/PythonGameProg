@@ -1,5 +1,4 @@
-11/3/2016
+11/7/2016
 
-Created a library for TicTacToe to store all functions used in the TicTacToe program
-
-Artificial Intelligence: choose the best (computer should prevent the user from winning, or itself should win the game) following step among all possibilities.
+TicTacToeAI: computer v.s. human player
+generate all possible combinations, return the one that gives the highest score to the computer or one that gives the lowest possible score to the human player
