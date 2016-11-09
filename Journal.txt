@@ -1,4 +1,4 @@
-11/7/2016
+11/9/2016
 
-TicTacToeAI: computer v.s. human player
-generate all possible combinations, return the one that gives the highest score to the computer or one that gives the lowest possible score to the human player
+worked more on the TicTacToe artificial intelligence program
+wrote the generateChildren functions, which generates and prints all possible next steps (grid) from the current gaming condition.
