@@ -69,7 +69,7 @@ def inputOX(userDict):
         userKey = input('Pick a coordinate(1~9): ')
         #check if the coordinate is chosen
         if(userKey in chosenCoor):
-            print('Coornidate already chosen! Pick another one.')
+            print('Coordinate already chosen! Pick another one.')
             continue
         userDict[userKey] = symbol
         chosenCoor.append(userKey)
@@ -86,9 +86,4 @@ def inputOX(userDict):
                 exit()
     print('Tie.')
 
-'''
-def artificialIntelligence(currentDict):
-    availableCoor = []
-    if(winner(currentDict)==True):
-        return currentDict
-'''
+
