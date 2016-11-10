@@ -1,4 +1,6 @@
-11/9/2016
+11/10/2016
 
-worked more on the TicTacToe artificial intelligence program
-wrote the generateChildren functions, which generates and prints all possible next steps (grid) from the current gaming condition.
+continued on working with the TicTacToeAI program: 
+now determines the next step (only works if the game requires one step to win though), and displays the final grid and score
+
+p.s. non-contagious alex is finally back
