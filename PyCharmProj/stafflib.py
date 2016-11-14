@@ -46,6 +46,10 @@ def showCurrentEmployee(eList, day):
 
 
 def incrementDay():
+    '''
+    increments the days of the employees have worked
+    :return:
+    '''
     days = [3, 2, 333, 102, 356]
     newDay = raw_input('New day? (y/n): ')
     if(newDay == 'y'):
