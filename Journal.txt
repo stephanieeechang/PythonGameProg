@@ -1,6 +1,9 @@
-11/10/2016
+11/14/2016
 
-continued on working with the TicTacToeAI program: 
-now determines the next step (only works if the game requires one step to win though), and displays the final grid and score
+data representation: 
+stores/deletes/prints employees’ information using data representation
 
-p.s. non-contagious alex is finally back
+stafflib.py                          | store.py
+python library for storing all       | python main program
+functions                            | 
+                                     |
