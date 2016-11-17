@@ -1,9 +1,6 @@
-11/14/2016
+11/16/2016
 
-data representation: 
-stores/deletes/prints employees’ information using data representation
-
-stafflib.py                          | store.py
-python library for storing all       | python main program
-functions                            | 
-                                     |
+turtle program: draw patterns using recursion 
+	functions: 
+	square(sqrlen, turtle): draw squares within squares
+	tree(branch, len, turtle): draw a tree
