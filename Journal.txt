@@ -1,6 +1,4 @@
-11/16/2016
+11/17/2016
 
-turtle program: draw patterns using recursion 
-	functions: 
-	square(sqrlen, turtle): draw squares within squares
-	tree(branch, len, turtle): draw a tree
+turtle program: 
+tree(branch, len, turtle): draw a tree using recursion
