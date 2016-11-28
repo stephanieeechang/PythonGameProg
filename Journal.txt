@@ -1,4 +1,9 @@
-11/17/2016
+11/28/2016
 
-turtle program: 
-tree(branch, len, turtle): draw a tree using recursion
+turtlecircle.py
+draw circle using recursion
+
+- escape characters
+- raw strings
+- string methods
+- multiline strings 
