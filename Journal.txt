@@ -1,9 +1,6 @@
-11/28/2016
+11/30/2016
 
-turtlecircle.py
-draw circle using recursion
+Pluraliser.py 
+user inputs a number and an object (in singular form), the program translates the number into word and prints it with the plural form of the object.
 
-- escape characters
-- raw strings
-- string methods
-- multiline strings 
+added some exceptions
