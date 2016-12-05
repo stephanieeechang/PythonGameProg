@@ -1,6 +1,13 @@
-11/30/2016
+12/5/2016
 
-Pluraliser.py 
-user inputs a number and an object (in singular form), the program translates the number into word and prints it with the plural form of the object.
-
-added some exceptions
+WUP#22:
+String’s Methods
+- get first/last character
+- strings are immutable 
+- replace(old, new)
+- title()
+- isdecimal()
+- isalpha()
+- isalnum()
+- join()
+- split()
