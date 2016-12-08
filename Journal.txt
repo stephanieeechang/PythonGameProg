@@ -1,4 +1,6 @@
-12/7/2016
+12/8/2016
 
 Url program:
-Count the frequency of each word from a website (using import urllib.request) and display it in a chart format (exclude punctuations)
+- Bubble sort:
+sort each word in order by frequency by swapping the sequence of elements (the word and its respective frequency)
+- Insertion sort
