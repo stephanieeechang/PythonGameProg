@@ -1,13 +1,4 @@
-12/5/2016
+12/7/2016
 
-WUP#22:
-String’s Methods
-- get first/last character
-- strings are immutable 
-- replace(old, new)
-- title()
-- isdecimal()
-- isalpha()
-- isalnum()
-- join()
-- split()
+Url program:
+Count the frequency of each word from a website (using import urllib.request) and display it in a chart format (exclude punctuations)
