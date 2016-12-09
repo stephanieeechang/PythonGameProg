@@ -29,27 +29,87 @@ def countWord(word, lwidth, rwidth):
     :return: None
     '''
     print("The Chronicles of Narnia".center(lwidth + rwidth,'-'))
-    for k, v in word.items():
-        print(k.ljust(lwidth, '.'),  str(v).rjust(rwidth))
+    for ele in word:
+        print(ele[0].ljust(lwidth, '.'),  str(ele[1]).rjust(rwidth))
+
+
+def bubbleSort(items):
+    '''
+    implementation of bubble sort
+    :param items: list
+    :return: list
+    '''
+    index = list(range(len(items)))
+    for i in range(len(items)):
+        for j in range(len(items)-i-1):
+            if(items[j] < items[j+1]):
+                items[j], items[j+1] = items[j+1], items[j]
+                index[j], index[j+1] = index[j+1], index[j]
+    return items, index
+
+def prebubble(wordbanklist):
+    '''
+    return the sorted list of words
+    :param wordbanklist: list of unsorted tuples
+    :return: list of tuples
+    '''
+    items = [element[1] for element in wordbanklist]
+    items_sort, index = bubbleSort(items)
+    sortwordbank = [wordbanklist[i] for i in index]
+    return sortwordbank
+
+
+def preinsertion(wordbanklist):
+    '''
+    return the sorted list of words
+    :param wordbanklist: list of unsorted tuples
+    :return: list of tuples
+    '''
+    items = [element[1] for element in wordbanklist]
+    items_sort, index = insertionSort(items)
+    sortwordbank = [wordbanklist[i] for i in index]
+    return sortwordbank
+
+def insertionSort(items):
+    index = list(range(len(items)))
+    for i in range(1, len(items)):
+        j = i
+        while(j>0 and items[j]>items[j-1]):
+            items[j],items[j-1] = items[j-1], items[j]
+            index[j], index[j-1] = index[j- 1], index[j]
+            j -= 1
+    return items, index
 
 count = {}
-punctuations = ["~","!","%","^","&","*","(",")","_","-","{","}","[","]","\\","|",";",":","'","\"",",",".","/","<",">","/","?"]
+punctuations = "~!@#$%^&*()_+?><,./\"{}[]|\\;':-"
+
+newNarnia = []
 for index, word in enumerate(narnia):
-    for letter in narnia[index]:
+    for letter in word:
         if letter in punctuations:
-            narnia[index] = word.replace(letter,"")
+            word = word.replace(letter, "")
+    newNarnia.append(word)
 
 filteredNarnia = []
 
-for x in narnia[1:100]:
+for x in newNarnia:
     if len(x) == 5:
         filteredNarnia.append(x)
 
-for x in filteredNarnia[1:100]:
+for x in filteredNarnia:
     if x not in count:
         count[x] = 1
     else:
         count[x] += 1
 
-countWord(count, 25, 7)
+#countWord(count, 25, 7)
 
+wbList = [(k,v) for k,v in count.items()]
+print('BUBBLE SORT')
+bsList = prebubble(wbList)
+countWord(bsList, 25, 7)
+print('\n\n')
+
+print('INSERTION SORT')
+isList = preinsertion(wbList)
+countWord(isList, 25, 7)
