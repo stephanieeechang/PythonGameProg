@@ -1,6 +1,5 @@
-12/8/2016
+12/12/2016
 
-Url program:
-- Bubble sort:
-sort each word in order by frequency by swapping the sequence of elements (the word and its respective frequency)
-- Insertion sort
+Regular Expression:
+capturing information from code or documents
+gone through a tutorial to understand special re methods (expressions)
