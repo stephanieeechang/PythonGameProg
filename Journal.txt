@@ -1,4 +1,5 @@
-12/14/2016
+12/15/2016
 
 codingame
-get 500xp (10 easy or 5 medium)
+completed the descents:
+shoot mountains from the highest to lowest using for loops, sorting lists, and enumerate
