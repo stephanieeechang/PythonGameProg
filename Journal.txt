@@ -1,5 +1,4 @@
-12/12/2016
+12/14/2016
 
-Regular Expression:
-capturing information from code or documents
-gone through a tutorial to understand special re methods (expressions)
+codingame
+get 500xp (10 easy or 5 medium)
