@@ -1,8 +1,8 @@
 '''
 PAS coffee maker
 '''
-import sys
 import time
+from threading import Thread
 
 latteS = 20
 latteL = 30
@@ -16,6 +16,7 @@ expressoTime = 5
 start = False
 cancel = False
 price = 0
+answer = None
 
 while(start == False or cancel == True):
     print('Choose a product: ')
@@ -43,26 +44,34 @@ while(start == False or cancel == True):
         productTime = expressoTime
     else:
         print('The product does not exist!')
-        sys.exit()
+        start = False
+        continue
 
     sugar = input('Select the portions of sugar (0~5): ')
 
     price = product + sugar
     print('The price of your beverage is ' + str(price) + ' NTD.')
 
-    #sec10 = 10
-    #while(sec10 > 0):
-    enterC = raw_input('Input "c" to cancel. Press [ENTER] to skip to the next step.')
-    if(enterC == 'c'):
-        cancel == True
-    enterS = raw_input('Input "s" to start.')
-    if(enterS == 's'):
-        start = True
-        #sec10 -= 1
-        #time.sleep(1)
+    def check():
+        time.sleep(10)
+        if(answer == 'START'):
+            start == True
+            return
+        elif(answer == 'CANCEL'):
+            cancel == True
+            return
+        else:
+            start == False
+            print('\nRestarting...')
+            return 0
 
-    for t in range(productTime, -1, -1):
-        print(str(t) + 'seconds left till your beverage ready...')
-        time.sleep(1)
+    Thread(target = check).start()
+    answer = raw_input('START or CANCEL? You have 10 seconds to input...')
+    if(answer == 'START'):
+        break
+
+for t in range(productTime, 0, -1):
+    print(str(t) + 'seconds left till your beverage ready...')
+    time.sleep(1)
 
 print('Your beverage is ready!')

@@ -1,4 +1,5 @@
 import urllib.request
+import timeit
 #python module for retrieving url pages
 
 #url with the vocabulary of interest
@@ -12,10 +13,8 @@ glossary = the_page.lower().split()
 for w in glossary:
     if '<pre' in w:
         start = glossary.index(w)
-        print(start)
     if '</pre' in w:
         finish = glossary.index(w)
-        print(finish)
 
 narnia = glossary[start:finish]
 
@@ -51,12 +50,15 @@ def prebubble(wordbanklist):
     '''
     return the sorted list of words
     :param wordbanklist: list of unsorted tuples
-    :return: list of tuples
+    :return: list of tuples, method run time
     '''
+    start = timeit.default_timer()
     items = [element[1] for element in wordbanklist]
     items_sort, index = bubbleSort(items)
     sortwordbank = [wordbanklist[i] for i in index]
-    return sortwordbank
+    stop = timeit.default_timer()
+    time = stop - start
+    return sortwordbank, time
 
 
 def preinsertion(wordbanklist):
@@ -65,12 +67,20 @@ def preinsertion(wordbanklist):
     :param wordbanklist: list of unsorted tuples
     :return: list of tuples
     '''
+    start = timeit.default_timer()
     items = [element[1] for element in wordbanklist]
     items_sort, index = insertionSort(items)
     sortwordbank = [wordbanklist[i] for i in index]
-    return sortwordbank
+    stop = timeit.default_timer()
+    time = stop - start
+    return sortwordbank, time
 
 def insertionSort(items):
+    '''
+    implementation of insertion sort
+    :param items: list
+    :return: list
+    '''
     index = list(range(len(items)))
     for i in range(1, len(items)):
         j = i
@@ -102,14 +112,17 @@ for x in filteredNarnia:
     else:
         count[x] += 1
 
-#countWord(count, 25, 7)
-
 wbList = [(k,v) for k,v in count.items()]
 print('BUBBLE SORT')
-bsList = prebubble(wbList)
-countWord(bsList, 25, 7)
+bsList, bubbleTime = prebubble(wbList)
+print('Bubble sort run time: ', bubbleTime)
+#countWord(bsList, 25, 7)
 print('\n\n')
 
 print('INSERTION SORT')
-isList = preinsertion(wbList)
-countWord(isList, 25, 7)
+isList, insertionTime = preinsertion(wbList)
+print('Insertion sort run time: ', insertionTime)
+print(isList[0])
+onelist = [v for k,v in isList]
+print(onelist)
+#countWord(isList, 25, 7)

@@ -19,7 +19,6 @@ def printRectangle(stringList):
 
 
 stringList = []
-string = ''
 while str != '0':
     str = input('Enter a word (0 to end): ')
     if str != '0':

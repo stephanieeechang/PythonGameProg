@@ -46,7 +46,6 @@ def generateChildren(data):
             gridChild = grid.copy()
             gridChild[key] = data['turn']
             nextTurn = 'x' if data['turn']=='o' else 'o'
-            print(' ')
             if(tttLib.winner(gridChild)):
                 tttLib.displayGrid(gridChild)
                 if(gridChild[key] == 'x'):

@@ -6,7 +6,6 @@ After each guess, the program will tell the user the number of digits in the gue
 and how many of the digits are in the correct position (Black hits) in the secret number.
 '''
 import random
-import sys
 
 #set the number of digits in the game
 numDigits = 5
@@ -49,8 +48,6 @@ for i in range(numDigits+1):
             i -= 1
         else:
             secretNum += digit4
-
-#print(secretNum)
 
 #initialize the user's input
 userNum = 0

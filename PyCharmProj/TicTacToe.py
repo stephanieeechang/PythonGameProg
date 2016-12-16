@@ -1,5 +1,6 @@
 '''
 the Tic Tac Toe game (use dictionary)
+Human player v.s. Human player
 '''
 import TicTacToeLibrary as tttLib
 

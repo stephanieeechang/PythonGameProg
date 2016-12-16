@@ -6,7 +6,6 @@ import math
 dec = 0
 bin = raw_input('Enter only 1s and 0s (10111): ')
 digit = len(bin)
-intBin = int(bin)
 
 while(sum(map(int,str(bin))) > digit):
     bin = raw_input('Enter only 1s and 0s (10111): ')

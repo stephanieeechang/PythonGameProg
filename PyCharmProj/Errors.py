@@ -44,7 +44,7 @@ for v in mapping.values():
 average = sum/len(mapping)
 print average
 
-print "hello"
+
 #ERROR 5
 b = {'video':0, 'music':23}
 k = b.keys()
@@ -59,3 +59,50 @@ k = list(b.keys())
 print k[0]
 print k
 """
+
+
+#ERROR 6
+'''
+i = [1, 2, 3, 5, 8, 13]
+j = []
+k = 0
+for l in i:
+    j[k] = l
+    k += 1
+print (j)
+'''
+#DEBUG 6: use append, an empty list does not have index
+i = [1, 2, 3, 5, 8, 13]
+j = []
+k = 0
+for l in i:
+    j.append(l)
+print (j)
+
+
+#ERROR 7
+'''
+x =[1,2,3,0,0,1]
+for i in range(0, len(x)):
+    if x[i]==0:
+        x.pop(i)
+'''
+#DEBUG 7: the length of the list is changed in the loop
+x =[1,2,3,0,0,1]
+def not0(a):
+    if a != 0:
+        return True
+newX = filter(not0, x)
+print newX
+
+
+#ERROR 8
+'''
+my_list = [1,2,3]
+[print(my_item)) for my_item in my_list]
+'''
+#DEBUG 8:
+def func(x):
+    print x
+my_list = [1,2,3]
+

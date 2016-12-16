@@ -7,7 +7,7 @@ numDict = {1:'one', 2:'two',3:'three',4:'four',5:'five',6:'six',7:'seven',8:'eig
 exception = {'fish':'fish', 'roof':'roofs', 'proof':'proofs', 'person':'people',
              'bacterium':'bacteria', 'man':'men'}
 
-object = raw_input('Enter an object: ')
+object = input('Enter an object: ')
 num = input('Enter the quantity of the object(1~10): ')
 
 if num > 1 and num <= 10:
@@ -26,9 +26,9 @@ if num > 1 and num <= 10:
     if object in exception.keys():
         plural = exception[object]
 
-    print numDict[num] + ' ' + plural
+    print(numDict[num] + ' ' + plural)
 elif num < 1 or num > 10:
-    print 'Invalid quantity!'
+    print('Invalid quantity!')
 else:
     plural = object
-    print numDict[num] + ' ' + plural
+    print(numDict[num] + ' ' + plural)
