@@ -1,6 +1,8 @@
 '''
 WUP #23 programs
 '''
+import re
+
 def checkEmail(email):
     notValid = '!#$%^&*()-+=~:";\\|{}[]\'<>,/?`@ '
     if '@' in email:
@@ -20,15 +22,30 @@ def checkEmail(email):
         count += 1
     return True
 
-# email = input('Enter an e-mail address: ')
-# print(checkEmail(email))
-
-
-def checkDate(date):
-    if date[:3].isDigit() == True and date[4] == '-' and date[5:7].isDigit() == True and date[7] == '-' and date[8:]:
-        return True
+def regexCheckEmail(email):
+    result = re.match(r'(\w+[.|\w])*@(\w+[.])*\w+', email)
+    if result != None:
+        valid = True
     else:
-        return False
+        valid = False
+    if valid:
+        return email + " is a valid e-mail."
+    else:
+        return email + " is not a valid e-mail."
+
+email = input('Enter an e-mail address: ')
+print(regexCheckEmail(email))
+
+def regexCheckDate(date):
+    result = re.match(r'(\d{4})[-](\d{2})[-](\d{2})', date)
+    if result != None:
+        valid = True
+    else:
+        valid = False
+    if valid:
+        return date + " is a date in the yyyy-mm-dd format."
+    else:
+        return date + " is not a date in the yyyy-mm-dd format."
 
 date = input('Enter a date in the yyyy-mm-dd format: ')
-checkDate(date)
+print(regexCheckDate(date))
