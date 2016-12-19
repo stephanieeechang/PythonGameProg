@@ -1,5 +1,6 @@
-12/15/2016
+12/19/2016
 
 codingame
-completed the descents:
-shoot mountains from the highest to lowest using for loops, sorting lists, and enumerate
+temperature: 
+use lists, list comprehensions, if-else statements and for loops to pick out the temperature that is closest to zero
+(if two temperatures are equally close, then print the positive one)
