@@ -1,6 +1,6 @@
-1/10/2017
+1/11/2017
 
 complete Q2 final projects
-Codingame
+Codingame: reached 500xp 
 
-Edited “Save your teachers” program to be more concise in coding
+Save you teachers: the program reads a GoogleClassroom multiple .csv file and creates .csv files in the format of the PowerSchool system
