@@ -1,6 +1,6 @@
-12/19/2016
+1/9/2017
 
-codingame
-temperature: 
-use lists, list comprehensions, if-else statements and for loops to pick out the temperature that is closest to zero
-(if two temperatures are equally close, then print the positive one)
+complete Q2 final projects
+Codingame 
+
+Save you teachers: the program reads a GoogleClassroom multiple .csv file and creates .csv files in the format of the PowerSchool system
