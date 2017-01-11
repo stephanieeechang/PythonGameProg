@@ -1,38 +1,28 @@
 '''
-the program reads a GoogleClassroom csv file and creates a csv in the format of the PowerSchool system
+the program reads a GoogleClassroom csv file and creates multiple .csv files in the format of the PowerSchool system
 '''
 import csv
 import datetime
-psDict = {'Teacher Name:':'', 'Section:':'Python', 'Assignment Name:':'',
-          'Due Date:':'', 'Points Possible:':'10', 'Extra Points:':'0', 'Score Type:':'Points',
-          'Student ID':'', 'Student Name':'', 'Points':''}
-print('1-Read Google Classroom file')
-
+psDict = {'Teacher Name:':'', 'Section:':'Python', 'Assignment Name:':'', 'Due Date:':'', 'Points Possible:':'10',
+          'Extra Points:':'0', 'Score Type:':'Points','Student ID':'', 'Student Name':'', 'Points':''}
 #open the file
 gcFile = open('GoogleActivities.csv')
 gcData = csv.reader(gcFile)
 #show all the rows in the file
-gcdata = []
-for count, row in enumerate(gcData):
-    print(count+1, row)
-    gcdata.append(row)
+gcdata = [row for row in gcData]
 
 #activities (assignments)
 gcNum = len(gcdata[0])-3
-print('Number of activities found:', gcNum)
 actList = []
 for num, activities in enumerate(gcdata[0]):
     if num > 2:
         actList.append(activities)
-        print('Activity', num-2, ':', activities)
-print('')
 psDict['Assignment Name:'] = actList
 
 #due date
 dateList = []
 week = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun']
-month = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-         'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+month = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 dateStr = ''
 for num, date in enumerate(gcdata[1]):
     if num > 2:
@@ -46,13 +36,10 @@ for num, date in enumerate(gcdata[1]):
 psDict['Due Date:'] = dateList
 
 #students' names
-name = ''
 names = []
 for i, row in enumerate(gcdata):
     if i > 2:
-        print('Student', i-2, ':' , row[1], row[0])
         names.append(row[1] + ', ' + row[0])
-print(names, '\n')
 psDict['Student Name'] = names
 
 #score
@@ -65,28 +52,18 @@ psDict['Points'] = scoreList
 
 #close file
 gcFile.close()
-
 #########################################################
-print('\n2-Read PowerSchool file')
-
 #open the file
 psFile = open('PowerSchool Template.csv')
 psData = csv.reader(psFile)
 #show all the rows in the file
-psdata = []
-for count, row in enumerate(psData):
-    print(count+1, row)
-    psdata.append(row)
+psdata = [row for row in psData]
 
 #teacher's name
-for t, row in enumerate(psdata[0]):
-    if t == 1:
-        psDict['Teacher Name:'] = row
+psDict['Teacher Name:'] = psdata[0][1]
 
 #section
-for s, row in enumerate(psdata[1]):
-    if s == 1:
-        psDict['Section:'] = row
+psDict['Section:'] = psdata[1][1]
 
 #student ID
 stuIDList = []
@@ -123,7 +100,7 @@ def gc_ps(num):
         writer.writerow('')
         writer.writerow(['Student ID']+ ['Student Name']+ ['Points'])
         for n in range(len(psDict['Student ID'])):
-            writer.writerow([psDict['Student ID'][n]]+ [psDict['Student Name'][n]]+ [psDict['Points'][(4*n)+i]])
+            writer.writerow([psDict['Student ID'][n]]+ [psDict['Student Name'][n]]+ [psDict['Points'][(gcNum*n)+i]])
         newPS.close()
 
 def psFileName(num):
@@ -137,4 +114,3 @@ def psFileName(num):
     return name
 
 gc_ps(gcNum)
-print(psDict)
