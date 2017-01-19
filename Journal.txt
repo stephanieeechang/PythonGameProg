@@ -1,4 +1,4 @@
-1/16/2016
+1/18/2016
 
-test GoogleClassroom_PowerSchool.py with new .csv files
-files created shall be allowed to be used in PowerSchool
+install pygame
+WUP #1: understand the rules and visual components of the snake game
