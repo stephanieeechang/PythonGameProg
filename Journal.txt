@@ -1,5 +1,4 @@
-1/13/2017
+1/16/2016
 
-Finished Q2 Final Project
-Codingame clash of code
-
+test GoogleClassroom_PowerSchool.py with new .csv files
+files created shall be allowed to be used in PowerSchool
