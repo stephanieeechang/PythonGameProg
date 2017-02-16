@@ -1,5 +1,6 @@
-2/15/2017
+2/13/2017
 
-download FileZilla
-transfer file from local computer to raspberry pi
-change vnc resolution
+set up raspberry pi
+install raspbian operating system
+enable VNC/SSH
+change hostname/password
