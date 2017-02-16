@@ -1,4 +1,5 @@
-1/19/2017
+2/16/2017
 
-snake game program:
-open new window, draw grid, draw snake head and body (move with arrow key)
+edit snake game:
+change head color
+set border (change snake direction when it hits the border)
