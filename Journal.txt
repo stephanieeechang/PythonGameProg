@@ -1,5 +1,5 @@
-2/16/2017
+2/15/2017
 
-edit snake game:
-change head color
-set border (change snake direction when it hits the border)
+download FileZilla
+transfer file from local computer to raspberry pi
+change vnc resolution
