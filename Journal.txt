@@ -1,6 +1,7 @@
-2/13/2017
+2/20/2017
 
-set up raspberry pi
-install raspbian operating system
-enable VNC/SSH
-change hostname/password
+warmup activity (state machines):
+traffic light program
+draw state diagram
+identify elements needed
+pygame load image
