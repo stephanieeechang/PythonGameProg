@@ -1,7 +1,8 @@
-2/20/2017
+2/22/2017
 
-warmup activity (state machines):
-traffic light program
-draw state diagram
-identify elements needed
-pygame load image
+State Machine Game:
+wait state
+jump state 
+double jump state
+duck state
+(update states above using blit and drawRect)
