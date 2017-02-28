@@ -78,27 +78,22 @@ while True:  # main game loop
 
     window.fill((255, 255, 255))
 
-    # generate the sequence 1 2 3
-    # for i in range(10000):
-    #     n = i%3
-    #     print('walking_' + str(n+1))
-
-    if state['state'] is wait:
+    if state['state'] is 'wait':
         # output
         state['image'] = 'wait'
         # transition
         if keys[pg.K_DOWN]:
             state['state'] = 'dwalk'
-            state['param'] = {'time_cnt':0}
+            state['param'] = {'time':0}
         elif keys[pg.K_LEFT]:
             state['state'] = 'lwalk'
-            state['param'] = {'time_cnt':0}
+            state['param'] = {'time':0}
         elif keys[pg.K_RIGHT]:
             state['state'] = 'rwalk'
-            state['param'] = {'time_cnt':0}
+            state['param'] = {'time':0}
         elif keys[pg.K_UP]:
             state['state'] = 'uwalk'
-            state['param'] = {'time_cnt':0}
+            state['param'] = {'time':0}
 
     elif state['state'] is 'dwalk':
         # output
