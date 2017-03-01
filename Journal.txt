@@ -1,8 +1,4 @@
-2/22/2017
+3/1/2017
 
-State Machine Game:
-wait state
-jump state 
-double jump state
-duck state
-(update states above using blit and drawRect)
+submit traffic light program
+physics program: draw 10 circles with random radius and random position
