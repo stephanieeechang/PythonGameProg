@@ -1,6 +1,4 @@
-3/2/2017
+3/6/2017
 
-update physics program:
-add direction, angle, velocity or motion in general to the circles
-
-data encapsulation
+mouse capture program:
+edit MyExplorer program and make the sprite move towards the position where mouse is clicked with pictures of walking motion
