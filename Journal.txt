@@ -1,4 +1,6 @@
-3/1/2017
+3/2/2017
 
-submit traffic light program
-physics program: draw 10 circles with random radius and random position
+update physics program:
+add direction, angle, velocity or motion in general to the circles
+
+data encapsulation
