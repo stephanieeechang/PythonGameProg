@@ -1,4 +1,9 @@
-3/6/2017
+3/8/2017
 
-mouse capture program:
-edit MyExplorer program and make the sprite move towards the position where mouse is clicked with pictures of walking motion
+learn about Python OOP
+- classes and instances
+- class variables
+- classmethods and staticmethods
+- inheritance
+
+add new class “Engineers” as a subclass of “Employee”, which inherits functions from “Employee”, adds an additional method counting the number of engineers, and override the __init__ function
