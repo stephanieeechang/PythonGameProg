@@ -1,9 +1,3 @@
-3/8/2017
+3/9/2017
 
-learn about Python OOP
-- classes and instances
-- class variables
-- classmethods and staticmethods
-- inheritance
-
-add new class “Engineers” as a subclass of “Employee”, which inherits functions from “Employee”, adds an additional method counting the number of engineers, and override the __init__ function
+draw particles using oop and add gravity to particles
