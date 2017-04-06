@@ -1,4 +1,5 @@
-4/5/2017
+4/6/2017
 
-introduction to GUI (Graphical User Interface) with PyQt
-install PyQt5 
+install new version of anaconda
+GUI with PyQt (widgets)
+unit converter program using OOP and GUI
