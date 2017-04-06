@@ -1,4 +1,4 @@
-3/15/2017
+4/5/2017
 
-work on midterm project (make a game or physics related program):
-Make a game with the goal of jumping up without hitting any obstacles. The character could be controlled with the left and right key (it automatically jumps up). similar to the game Doodle Jump
+introduction to GUI (Graphical User Interface) with PyQt
+install PyQt5 
