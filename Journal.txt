@@ -1,7 +1,8 @@
-4/20/2017
+4/17/2017
 
 GUI widgets presentation
 
-Cici: QTabWidgets
+Sabrina: QCalendarWidget
+Daniel: QProgressBar
+Stephanie: QLabel
 
-ultimate GUI program: include all GUIs in the program
