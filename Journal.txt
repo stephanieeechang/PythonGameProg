@@ -1,5 +1,7 @@
-4/6/2017
+4/20/2017
 
-install new version of anaconda
-GUI with PyQt (widgets)
-unit converter program using OOP and GUI
+GUI widgets presentation
+
+Cici: QTabWidgets
+
+ultimate GUI program: include all GUIs in the program
