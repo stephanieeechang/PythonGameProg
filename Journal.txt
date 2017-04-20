@@ -1,8 +1,7 @@
-4/17/2017
+4/13/2017
 
 GUI widgets presentation
 
-Sabrina: QCalendarWidget
-Daniel: QProgressBar
-Stephanie: QLabel
+Darren: QDockWidget
+Alex: QCheckBox
 
