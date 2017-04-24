@@ -4,7 +4,7 @@ QDockWidget, QTabWidget and QProgressBar
 '''
 
 import sys, time
-from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QProgressBar, QDockWidget, \
+from PyQt5.QtWidgets import QApplication, QWidget, QProgressBar, QDockWidget, \
     QCheckBox, QCalendarWidget, QLabel, QTextEdit, QTabWidget, QFormLayout, QHBoxLayout
 from PyQt5.QtCore import QThread, pyqtSignal, QDate
 
@@ -32,7 +32,7 @@ class Tab(QTabWidget):
         self.tab2 = QWidget()
         self.tab3 = QWidget()
 
-        self.addTab(self.tab1, 'Word')
+        self.addTab(self.tab1, 'Work')
         self.addTab(self.tab2, 'School')
         self.addTab(self.tab3, 'Personal')
 
@@ -284,7 +284,7 @@ class AllWidgets(QWidget):
         self.labelDate.move(125, 210)
 
     def showDate(self, date):
-        self.label.setText(date.toString())
+        self.labelDate.setText(date.toString())
 
 
 app = QApplication(sys.argv)
