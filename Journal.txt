@@ -1,7 +1,3 @@
-4/13/2017
+4/24/2017
 
-GUI widgets presentation
-
-Darren: QDockWidget
-Alex: QCheckBox
-
+complete ultimate GUI program (to-do-list)
