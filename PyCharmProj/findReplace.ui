@@ -47,14 +47,14 @@
      <widget class="QLineEdit" name="replaceWithLineEdit"/>
     </item>
     <item row="2" column="0">
-     <widget class="QCheckBox" name="checkBox">
+     <widget class="QCheckBox" name="caseCheckBox">
       <property name="text">
        <string>Case sensitive</string>
       </property>
      </widget>
     </item>
     <item row="2" column="1">
-     <widget class="QCheckBox" name="checkBox_2">
+     <widget class="QCheckBox" name="wholeCheckBox">
       <property name="text">
        <string>Whole words</string>
       </property>
