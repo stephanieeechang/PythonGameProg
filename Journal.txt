@@ -1,5 +1,5 @@
-5/8/2017
+5/10/2017
 
-Scientific app with numpy
-- plot graphs
-- poisson distribution for grades
+Scientific app with numpy:
+- normal distribution for grades
+(histogram)
