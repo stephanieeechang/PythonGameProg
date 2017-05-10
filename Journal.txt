@@ -1,3 +1,5 @@
-4/24/2017
+5/8/2017
 
-complete ultimate GUI program (to-do-list)
+Scientific app with numpy
+- plot graphs
+- poisson distribution for grades
