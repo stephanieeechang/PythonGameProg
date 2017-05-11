@@ -1,5 +1,5 @@
-5/10/2017
+5/11/2017
 
-Scientific app with numpy:
-- normal distribution for grades
-(histogram)
+Plot graph and histogram, each displayed in a dockWidget
+resizes accordingly
+data changes with respect to time
