@@ -1,5 +1,4 @@
-5/11/2017
+5/15/2017
 
-Plot graph and histogram, each displayed in a dockWidget
-resizes accordingly
-data changes with respect to time
+plot graphs for cosine and sine function, also the AM Radio wave
+change color of the graphs over time
