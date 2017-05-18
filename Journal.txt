@@ -1,4 +1,3 @@
-5/15/2017
+5/17/2017
 
-plot graphs for cosine and sine function, also the AM Radio wave
-change color of the graphs over time
+processing image with python
