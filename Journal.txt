@@ -1,4 +1,3 @@
-5/18/2017
+5/22/2017
 
-processing image with python
-creating image from matrix (chessboard)
+count coins in an image from their diameter (calculated from mpatches.Rectangle)
